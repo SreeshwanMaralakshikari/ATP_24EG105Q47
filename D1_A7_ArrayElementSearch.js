@@ -11,7 +11,7 @@ let searchArray=function(a,k)
     for(let i=0;i<a.length;i++)
     {
         //if key is present
-        if(a[i]==k)
+        if(a[i]===k)
         {
             //return index of array element
             return i;
