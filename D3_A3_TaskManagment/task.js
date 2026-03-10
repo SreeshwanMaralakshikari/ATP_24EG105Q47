@@ -24,14 +24,12 @@ function addTask(title, priority, dueDate)
 // 2. Get all tasks
 function getAllTasks() 
 {
-    if(tasks)
-    {
-        return tasks;
-    }
-    else
+    if(tasks.length==0)
     {
         console.log("No Tasks Available")
     }
+    else
+        return tasks
 }
                     
 // 3. Mark task as complete
@@ -44,11 +42,9 @@ function completeTask(taskId)
             task.taskStatus="Complete"
             return true;
         }
-        else
-        {
-            console.log("Invalid Task ID")
-        }
     }
+    console.log("Invalid Task ID")
+    return false
 }
 
 //exporting required files to task.js

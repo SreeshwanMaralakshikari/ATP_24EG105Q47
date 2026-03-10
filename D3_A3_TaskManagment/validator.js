@@ -23,7 +23,7 @@ function validateTitle(title)
 function validatePriority(priority) 
 {
     let pr=priority.toLowerCase();
-    if(pr==="low"||pr==="medium"||pr=="high")
+    if(pr==="low"||pr==="medium"||pr==="high")
     {
         console.log("Priority is valid")
         return true
@@ -50,7 +50,6 @@ function validateDueDate(date)
         console.log("Due Date is invalid")
         return false
     }
-    return true;
 }
 
 //exporting required function to task.js
