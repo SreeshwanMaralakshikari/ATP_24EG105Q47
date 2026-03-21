@@ -1,0 +1,40 @@
+*{
+    background-color: rgb(0, 72, 255);
+    color: white;
+}
+
+h1
+{
+    text-align: center;
+    font-style: normal;
+    font-size: 40px
+}
+
+img
+{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.img1
+{
+    float:left;
+}
+
+.img3
+{
+    display: block;
+    margin: auto;
+}
+
+.img2
+{
+    float: right;
+}
+
+p
+{
+    display: block;
+    font-size: 20px;
+}

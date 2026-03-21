@@ -1,0 +1,109 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(226, 218, 218);
+    padding: 20px;
+    align-items:center;
+}
+
+/*nav h1::first-letter
+{
+    font-size: x-large;
+}
+    */
+
+nav ul
+{
+    width: 300px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+body
+{
+    background-color: palevioletred;
+}
+
+main 
+{
+    margin: 25px 100px;
+    color: antiquewhite;
+}
+
+main h1,h2
+{
+    text-align: center;
+}
+
+.cards 
+{
+    display: flex;
+    gap: 40px;
+}
+
+.card1,.card2,.card3,.card4
+{
+    display: block;
+}
+
+main h4
+{
+    padding-bottom: 10px;
+}
+
+section img
+{
+    width: 50%;
+    height: 50%;
+}
+
+/*
+.authorcards
+{
+    display: flex;
+    gap: 40px;
+}
+*/
+
+/*
+.authorcards h5,p
+{
+    display: block;
+}
+*/
+
+footer
+{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(226, 218, 218);
+    padding: 20px;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .cards
+    {
+        flex-direction: column;
+    }
+    main
+    {
+        margin: 25px 20px;
+    }
+    .footer
+    {
+        display: column;
+    }
+}

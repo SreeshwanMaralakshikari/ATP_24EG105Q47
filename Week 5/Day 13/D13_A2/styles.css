@@ -1,0 +1,41 @@
+html
+{
+    font-size:10px;
+}
+
+.parent
+{
+    margin:100px;
+    text-align:center;
+}
+
+.heading1
+{
+    font-size: 7vw;
+}
+
+h1
+{
+    font-size:7rem;
+}
+
+h2
+{
+    font-size:3 rem;
+}
+
+p
+{
+    font-size:1.5rem;
+}
+
+img
+{
+    font-size: 20rem;
+}
+
+ul
+{
+    list-style-position: inside;
+    font-size: 5em;
+}
