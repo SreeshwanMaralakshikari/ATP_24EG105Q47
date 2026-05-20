@@ -44,18 +44,46 @@ Week 5/
 │── D11_A5_TitleTable.html
 │── D11_A6_SubjectMarksTable.html
 │── D11_A7_CSSTable.html
-├── D13_A1.html
-│── D13_A2.html
+├── D13_A1_QuickBlogMainPage.html
+│── D13_A2_HTMLPage.html
 │── D13_A3toA7_tailwind-project/src/
-│      ├── D13_A3.html
-│      ├── D13_A4.html
-│      ├── D13_A5.html
-│      ├── D13_A6.html
-│      └── D13_A7.html
+│      ├── D13_A3_BasicTailwind.html
+│      ├── D13_A4_PersonCards.html
+│      ├── D13_A5_TailwindPage.html
+│      ├── D13_A6_TailwindLiberatians.html
+│      └── D13_A7_TailwindCityGuide.html
 │── D14_A1_react-assignment-1/
 │── D14_A2_react-assignment-2/
 └── README.md
 ```
+
+---
+
+# Folder Purpose
+
+| Folder / File Name | Purpose |
+|---|---|
+| `D11_A1_BasicWebPage.html` | Creates a basic HTML webpage using headings, paragraphs, hyperlinks, images, and webpage structure. |
+| `D11_A2_NestedLists.html` | Demonstrates ordered lists, unordered lists, and nested list structures in HTML. |
+| `D11_A3_PochiCat/` | Builds a styled multi-file webpage project using HTML and CSS integration techniques. |
+| `D11_A4_BlackGooseBistro/` | Creates a restaurant-themed webpage using semantic HTML and CSS styling. |
+| `D12_A1_CityLinks/` | Creates a webpage containing navigation links and city-based content organization. |
+| `D12_A2_Logo/` | Designs and structures a logo-based webpage layout using HTML and CSS. |
+| `D12_A3_Profile/` | Builds a personal profile webpage layout with organized frontend structure. |
+| `D12_A4_ActivityCard/` | Creates responsive activity card UI components and frontend card layouts. |
+| `D12_A5_TitleTable/` | Demonstrates HTML table creation with title-based structured data formatting. |
+| `D12_A6_SubjectMarksTable/` | Creates a marks table layout for displaying subject-wise student data. |
+| `D12_A7_CSSTable/` | Applies CSS styling and visual formatting techniques to HTML tables. |
+| `D13_A1_QuickBlogMainPage.html` | Builds a blog-style homepage layout using HTML and CSS design principles. |
+| `D13_A2_HTMLPage.html` | Creates a structured responsive HTML webpage for frontend practice. |
+| `D13_A3toA7_tailwind-project/` | Develops multiple responsive frontend webpages using Tailwind CSS utility-first styling and modern UI layouts. |
+| `D13_A3_BasicTailwind.html` | Practices basic Tailwind CSS utilities and responsive layout creation. |
+| `D13_A4_PersonCards.html` | Creates responsive person card layouts using Tailwind CSS components and grid alignment. |
+| `D13_A5_TailwindPage.html` | Builds a responsive webpage using Tailwind CSS utility classes and frontend layout techniques. |
+| `D13_A6_TailwindLiberatians.html` | Develops a multi-section responsive webpage with Tailwind CSS and background integrations. |
+| `D13_A7_TailwindCityGuide.html` | Builds a modern responsive city guide webpage using Tailwind CSS utilities and mobile-friendly layouts. |
+| `D14_A1_ReactProps/` | Introduces React fundamentals including JSX, functional components, props, state, and event handling. |
+| `D14_A2_UseStateCounter/` | Practices advanced React concepts such as dynamic rendering, reusable components, and state management. |
 
 ---
 
@@ -81,9 +109,7 @@ The assignments help in understanding:
 
 # Day 11 — HTML Fundamentals
 
-## Assignments Included
-
-### 1. Basic Web Page
+## Basic Web Page
 File:
 ```bash
 D11_A1_BasicWebPage.html
@@ -99,7 +125,7 @@ D11_A1_BasicWebPage.html
 
 ---
 
-### 2. Nested Lists
+## Nested Lists
 File:
 ```bash
 D11_A2_NestedLists.html
@@ -113,7 +139,7 @@ D11_A2_NestedLists.html
 
 ---
 
-### 3. Pochi Cat Project
+## Pochi Cat Project
 Folder:
 ```bash
 D11_A3_PochiCat/
@@ -127,7 +153,7 @@ D11_A3_PochiCat/
 
 ---
 
-### 4. Black Goose Bistro
+## Black Goose Bistro
 Folder:
 ```bash
 D11_A4_BlackGooseBistro/
@@ -143,17 +169,103 @@ D11_A4_BlackGooseBistro/
 
 # Day 12 — Frontend Assignments Practice
 
-## Folder Included
-
+## City Links
+Folder:
 ```bash
-Assignments/
+D12_A1_CityLinks/
 ```
 
-## Topics Practiced
+### Concepts Practiced
 - HTML structure
-- CSS layouts
-- Responsive design
-- UI building
+- Navigation links
+- Content organization
+- Basic page layout
+
+---
+
+## Logo
+Folder:
+```bash
+D12_A2_Logo/
+```
+
+### Concepts Practiced
+- Logo placement
+- HTML layout
+- Basic page design
+- Visual structuring
+
+---
+
+## Profile
+Folder:
+```bash
+D12_A3_Profile/
+```
+
+### Concepts Practiced
+- Profile page layout
+- HTML structure
+- Content presentation
+- Basic styling
+
+---
+
+## Activity Card
+Folder:
+```bash
+D12_A4_ActivityCard/
+```
+
+### Concepts Practiced
+- Card-based UI design
+- Layout creation
+- Styling elements
+- Responsive presentation
+
+---
+
+## Title Table
+Folder:
+```bash
+D12_A5_TitleTable/
+```
+
+### Concepts Practiced
+- HTML table structure
+- Tabular data presentation
+- Table formatting
+- Content alignment
+
+---
+
+## Subject Marks Table
+Folder:
+```bash
+D12_A6_SubjectMarksTable/
+```
+
+### Concepts Practiced
+- Marks table creation
+- Data formatting
+- Table alignment
+- HTML table practice
+
+---
+
+## CSS Table
+Folder:
+```bash
+D12_A7_CSSTable/
+```
+
+### Concepts Practiced
+- CSS styling for tables
+- Table design
+- Visual enhancement
+- Frontend layout styling
+
+---
 
 ## Concepts Covered
 - webpage organization
@@ -165,10 +277,10 @@ Assignments/
 
 # Day 13 — CSS & Tailwind CSS
 
-## 1. Assignment 1
+## Quick Blog Main Page
 Folder:
 ```bash
-D13_A1/
+D13_A1_QuickBlogMainPage/
 ```
 
 ### Concepts Practiced
@@ -179,10 +291,10 @@ D13_A1/
 
 ---
 
-## 2. Assignment 2
+## HTML Page
 Folder:
 ```bash
-D13_A2/
+D13_A2_HTMLPage/
 ```
 
 ### Concepts Practiced
@@ -193,19 +305,19 @@ D13_A2/
 
 ---
 
-## 3. Tailwind Project
+# Tailwind Project for 5 Assignments
 Folder:
 ```bash
 tailwind-project/
 ```
 
-### Concepts Practiced
+## Concepts Practiced
 - Tailwind CSS
 - Utility-first styling
 - Responsive utilities
 - Modern frontend design
 
-### Features
+## Features
 - Responsive layouts
 - Utility classes
 - Fast UI development
@@ -217,32 +329,73 @@ tailwind-project/
 - Reusable frontend sections
 - Organized responsive design
 
-### Assignments Included
+### Basic Tailwind Layout
+File:
+```bash
+D13_A3_BasicTailwind.html
+```
 
-#### D13_A3.html
-- Responsive Tailwind layout
-- Structured UI sections
-- Utility-class styling
+### Concepts Practiced
+- Tailwind utility classes
+- Responsive layouts
+- Structured frontend sections
+- Utility-first styling
 
-#### D13_A4.html
-- Responsive image layouts
-- Grid-based alignment
-- Modern spacing structure
+---
 
-#### D13_A5.html
+### Person Cards
+File:
+```bash
+D13_A4_PersonCards.html
+```
+
+### Concepts Practiced
+- Responsive card layouts
+- Grid alignment
+- Modern UI spacing
+- Tailwind CSS components
+
+---
+
+### Tailwind Page
+File:
+```bash
+D13_A5_TailwindPage.html
+```
+
+### Concepts Practiced
 - Card-based webpage layout
 - Responsive UI sections
 - Tailwind utility usage
+- Frontend design structure
 
-#### D13_A6.html
-- Multi-section responsive webpage
+---
+
+### Tailwind Liberatians
+File:
+```bash
+D13_A6_TailwindLiberatians.html
+```
+
+### Concepts Practiced
+- Multi-section webpage creation
 - Background image integration
 - Flexible frontend structure
+- Responsive design
 
-#### D13_A7.html
+---
+
+### Tailwind City Guide
+File:
+```bash
+D13_A7_TailwindCityGuide.html
+```
+
+### Concepts Practiced
 - Modern responsive webpage
 - Utility-first frontend styling
 - Mobile-friendly UI design
+- Responsive frontend layouts
 
 ### Assets Used
 The project contains multiple image assets used for:
@@ -283,10 +436,10 @@ Contains additional custom styling.
 
 ---
 
-## 1. React Assignment 1
+## React Props
 Folder:
 ```bash
-react-assignment-1/
+D14_A1_ReactProps/
 ```
 
 ### Concepts Practiced
@@ -303,10 +456,10 @@ react-assignment-1/
 
 ---
 
-## 2. React Assignment 2
+## Use State Counter
 Folder:
 ```bash
-react-assignment-2/
+D14_A2_UseStateCounter/
 ```
 
 ### Concepts Practiced
