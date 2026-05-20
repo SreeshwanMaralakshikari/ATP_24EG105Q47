@@ -1,0 +1,71 @@
+###GET Request does not contain body as it is just reading the exisiting data
+###(Does not have the ability to send data)
+### Read all the users
+GET http://localhost:1112/user-api/users
+
+###Read User by Id
+GET http://localhost:1112/user-api/users/2
+
+
+###POST Request contains the body as it is creating the data(Ability to send the data)
+###Create New User
+POST http://localhost:1112/user-api/users
+Content-Type: application/json
+
+//Will be inside the request object
+{
+    "id":2,
+    "name":"Vikas",
+    "age":24
+}
+
+###PUT Request contains the body as it is updating the data(Ability to send the data)
+###Update a user by id
+PUT http://localhost:1112/user-api/users
+Content-Type: application/json
+
+{
+    "id":3,
+    "name":"Vikas Kumar",
+    "age":22
+}
+
+
+###DELETE does not contain body as it is just deleting the exisiting data(Does not have the 
+###ability to send data)
+###Delete a User by ID
+DELETE http://localhost:1112/user-api/users/1
+
+
+
+###(1) Create New Product({productId,name,brand,price})
+POST http://localhost:1112/product-api/products
+Content-Type: application/json
+
+{
+    "productId":4,
+    "name":"150 Pages Book",
+    "brand":"Clasmae",
+    "price": 150
+}
+
+###(2)Read all the Products
+GET http://localhost:1112/product-api/products
+
+###(3)Read All Products by Brand
+GET http://localhost:1112/product-api/products/Classmate
+
+###Update a Product
+PUT http://localhost:1112/product-api/products
+Content-Type: application/json
+
+{
+    "productId":1,
+    "name":"150 Pages Book",
+    "brand":"Classmate",
+    "price": 150
+}
+
+
+###Delete a Product by ID
+DELETE http://localhost:1112/product-api/products/2

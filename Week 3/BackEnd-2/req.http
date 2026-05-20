@@ -1,0 +1,84 @@
+### Read all the users(req to protected route)
+GET http://localhost:1122/user-api/users
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+
+###Read User by Id
+GET http://localhost:1122/user-api/user
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+
+
+###Create New User
+POST http://localhost:1122/user-api/users
+Content-Type: application/json
+
+{
+    "userName":"bhanu",
+    "password":"bhanu",
+    "email":"bhanu@gmail.com",
+    "age":21
+}
+
+###Update a user by id
+PUT http://localhost:1122/user-api/users/69abc6ffc6e3f487a763bb44
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+Content-Type: application/json
+
+{
+    "userName":"kiran",
+    "password":"kiran",
+    "email":"kiran@mail.com",
+    "age":23
+}
+
+
+###Adding Product to the cart
+PUT http://localhost:1122/user-api/cart/product-id/69abb9780e0632a27c3b5a36
+Cookie: Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5NzkxOSwiZXhwIjoxNzczMzMwMzE5fQ.RXPycxESAg6Nyfck-tVSZVHtXqgTGtL7DHP9-9UKMAE; Path=/; HttpOnly; SameSite=Lax
+
+###Delete a User by ID
+DELETE http://localhost:1122/user-api/users/69aa6488290afd6684cc25cd
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+
+### User Login
+POST http://localhost:1122/user-api/auth
+Content-Type: application/json
+
+{
+    "email":"kiran@gmail.com",
+    "password":"kiran"
+}
+
+
+###Product Cred Operations
+###(1) Create New Product({productId,name,brand,price})
+POST http://localhost:1122/product-api/products
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+{
+    "productId":"D9451",
+    "name":"Samsung Delta",
+    "price": 32000,
+    "brand":"Samsung"
+}
+
+
+###(2)Read all the Products
+GET http://localhost:1122/product-api/products
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+
+###(3)Read a Product by productId
+GET http://localhost:1122/product-api/products/B7831
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+
+###(4)Update a Product by productId
+PUT http://localhost:1122/product-api/products
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
+{
+    "productId":"A9851",
+    "name":"iPhone 16",
+    "price": 50000,
+    "brand":"Apple"
+}
+
+###Delete a Product by id
+DELETE http://localhost:1122/product-api/products/D9451
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtpcmFuQGdtYWlsLmNvbSIsImlhdCI6MTc3MzI5MzAyNywiZXhwIjoxNzczMjk2NjI3fQ.oMGAJ7GCk7QLfOMQEOO0azVnAuszuDQR-19AWaDhZeI; Path=/; HttpOnly; SameSite=Lax
