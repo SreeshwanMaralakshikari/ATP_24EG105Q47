@@ -49,11 +49,11 @@ The work focuses on:
 ```bash
 Week 6/
 │
-│── D15_A1_product-form-demo/
-│── D15_A2_basic-react-app/
-│── D16_A1_mern-mini-employee-app/
-│── D16_A2_react-routing-demo/
-└── D17_A1_context-counter-demo/
+│── product-form-demo/
+│── basic-react-app/
+│── mern-mini-employee-app/
+│── react-routing-demo/
+└── context-counter-demo/
 ```
 
 ---

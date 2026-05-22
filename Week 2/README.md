@@ -18,22 +18,22 @@ A complete collection of JavaScript and Backend Development assignments covering
 ```bash
 Week 2/
 │
-├── D3_A1_DailyTemperatureAnalyzer.js
-├── D3_A2_ShoppingCartAssignment.js
-├── D3_A4_OnlineCourseNameProcessor.js
-├── D3_A5_StudentMarksList.js
-├── D3_A6_StudentPerformanceDashboard.js
-├── D3_A7_EmployeePayrollProcessor.js
-├── D3_A8_MovieStreamingPlatform.js
-├── D3_A9_BankTransactionAnalyzer.js
+├── DailyTemperatureAnalyzer.js
+├── ShoppingCartAssignment.js
+├── OnlineCourseNameProcessor.js
+├── StudentMarksList.js
+├── StudentPerformanceDashboard.js
+├── EmployeePayrollProcessor.js
+├── MovieStreamingPlatform.js
+├── BankTransactionAnalyzer.js
 │
-├── D3_A3_TaskManagment/
+├── TaskManagment/
 │   ├── app.js
 │   ├── task.js
 │   ├── validator.js
 │   └── README.md
 │
-├── D3_A10_ECommerceShoppingCart/
+├── ECommerceShoppingCart/
 │   ├── app.js
 │   ├── cart.js
 │   ├── discount.js
@@ -41,17 +41,17 @@ Week 2/
 │   ├── product.js
 │   └── README.md
 │
-├── D4_A1_LibraryBookManagementSystem.js
-├── D4_A2_ShallowCopyOfArray.js
-├── D4_A3_ShallowCopyOfObject.js
-├── D4_A4_RestParameterArraySum.js
-├── D4_A5_ShallowCopyDifference.js
-├── D4_A6_DeepCopyDifference.js
-├── D4_A7_ExamPortalSimulator.js
-├── D4_A8_OTPCountdownSimulator.js
-├── D4_A9_MoneyTransferPromise.js
+├── LibraryBookManagementSystem.js
+├── ShallowCopyOfArray.js
+├── ShallowCopyOfObject.js
+├── RestParameterArraySum.js
+├── ShallowCopyDifference.js
+├── DeepCopyDifference.js
+├── ExamPortalSimulator.js
+├── OTPCountdownSimulator.js
+├── MoneyTransferPromise.js
 │
-├── D5_AssignmentBackEnd-1/
+├── UserAndProductBackEnd/
 │   │
 │   ├── APIs/
 │   │   ├── ProductAPI.js
@@ -70,34 +70,34 @@ Week 2/
 
 | File Name | Purpose |
 |---|---|
-| `D3_A1_DailyTemperatureAnalyzer.js` | Analyzes daily temperature data and performs calculations or comparisons. |
-| `D3_A2_ShoppingCartAssignment.js` | Simulates shopping cart operations such as totals and product handling. |
-| `D3_A3_TaskManagment/app.js` | Main application file for the task management system. |
-| `D3_A3_TaskManagment/task.js` | Handles task-related operations and task data management. |
-| `D3_A3_TaskManagment/validator.js` | Validates task inputs and task-related conditions. |
-| `D3_A3_TaskManagment/README.md` | Documentation for the task management mini project. |
-| `D3_A4_OnlineCourseNameProcessor.js` | Processes and formats online course names using string operations. |
-| `D3_A5_StudentMarksList.js` | Manages and processes student marks data. |
-| `D3_A6_StudentPerformanceDashboard.js` | Creates a dashboard-like analysis for student performance data. |
-| `D3_A7_EmployeePayrollProcessor.js` | Calculates employee salaries, payroll details, and related operations. |
-| `D3_A8_MovieStreamingPlatform.js` | Simulates movie platform features such as filtering or managing movies. |
-| `D3_A9_BankTransactionAnalyzer.js` | Analyzes banking transactions and performs transaction-based calculations. |
-| `D3_A10_ECommerceShoppingCart/app.js` | Main application file for the e-commerce shopping cart project. |
-| `D3_A10_ECommerceShoppingCart/cart.js` | Handles cart operations such as adding and removing products. |
-| `D3_A10_ECommerceShoppingCart/discount.js` | Applies discount calculations to cart items. |
-| `D3_A10_ECommerceShoppingCart/payment.js` | Handles payment-related logic for checkout simulation. |
-| `D3_A10_ECommerceShoppingCart/product.js` | Manages product-related information and operations. |
-| `D3_A10_ECommerceShoppingCart/README.md` | Documentation for the e-commerce shopping cart project. |
-| `D4_A1_LibraryBookManagementSystem.js` | Simulates a library management system for books and records. |
-| `D4_A2_ShallowCopyOfArray.js` | Demonstrates shallow copying of arrays in JavaScript. |
-| `D4_A3_ShallowCopyOfObject.js` | Demonstrates shallow copying of objects in JavaScript. |
-| `D4_A4_RestParameterArraySum.js` | Uses rest parameters to calculate sums dynamically. |
-| `D4_A5_ShallowCopyDifference.js` | Explains differences and behavior of shallow copies. |
-| `D4_A6_DeepCopyDifference.js` | Demonstrates deep copy concepts and differences from shallow copy. |
-| `D4_A7_ExamPortalSimulator.js` | Simulates an online exam portal system with related operations. |
-| `D4_A8_OTPCountdownSimulator.js` | Simulates OTP countdown functionality using timers. |
-| `D4_A9_MoneyTransferPromise.js` | Demonstrates Promise handling through money transfer simulation. |
-| `D5_AssignmentBackEnd-1` | Introduces backend development with Node.js and Express.js, focusing on REST APIs, modular structure, request handling, and backend fundamentals. |
+| `DailyTemperatureAnalyzer.js` | Analyzes daily temperature data and performs calculations or comparisons. |
+| `ShoppingCartAssignment.js` | Simulates shopping cart operations such as totals and product handling. |
+| `TaskManagment/app.js` | Main application file for the task management system. |
+| `TaskManagment/task.js` | Handles task-related operations and task data management. |
+| `TaskManagment/validator.js` | Validates task inputs and task-related conditions. |
+| `TaskManagment/README.md` | Documentation for the task management mini project. |
+| `OnlineCourseNameProcessor.js` | Processes and formats online course names using string operations. |
+| `StudentMarksList.js` | Manages and processes student marks data. |
+| `StudentPerformanceDashboard.js` | Creates a dashboard-like analysis for student performance data. |
+| `EmployeePayrollProcessor.js` | Calculates employee salaries, payroll details, and related operations. |
+| `MovieStreamingPlatform.js` | Simulates movie platform features such as filtering or managing movies. |
+| `BankTransactionAnalyzer.js` | Analyzes banking transactions and performs transaction-based calculations. |
+| `ECommerceShoppingCart/app.js` | Main application file for the e-commerce shopping cart project. |
+| `ECommerceShoppingCart/cart.js` | Handles cart operations such as adding and removing products. |
+| `ECommerceShoppingCart/discount.js` | Applies discount calculations to cart items. |
+| `ECommerceShoppingCart/payment.js` | Handles payment-related logic for checkout simulation. |
+| `ECommerceShoppingCart/product.js` | Manages product-related information and operations. |
+| `ECommerceShoppingCart/README.md` | Documentation for the e-commerce shopping cart project. |
+| `LibraryBookManagementSystem.js` | Simulates a library management system for books and records. |
+| `ShallowCopyOfArray.js` | Demonstrates shallow copying of arrays in JavaScript. |
+| `ShallowCopyOfObject.js` | Demonstrates shallow copying of objects in JavaScript. |
+| `RestParameterArraySum.js` | Uses rest parameters to calculate sums dynamically. |
+| `ShallowCopyDifference.js` | Explains differences and behavior of shallow copies. |
+| `DeepCopyDifference.js` | Demonstrates deep copy concepts and differences from shallow copy. |
+| `ExamPortalSimulator.js` | Simulates an online exam portal system with related operations. |
+| `OTPCountdownSimulator.js` | Simulates OTP countdown functionality using timers. |
+| `MoneyTransferPromise.js` | Demonstrates Promise handling through money transfer simulation. |
+| `UserAndProductBackEnd` | Introduces backend development with Node.js and Express.js, focusing on REST APIs, modular structure, request handling, and backend fundamentals. |
 | `README.md` | Provides the complete overview, folder structure, and assignment details for Week 2. |
 
 ---
@@ -135,7 +135,7 @@ const temperatures = [32, 35, 28, 40, 38, 30, 42];
 ## Related Code
 
 ```bash
-D3_A1_DailyTemperatureAnalyzer.js
+DailyTemperatureAnalyzer.js
 ```
 
 ---
@@ -177,7 +177,7 @@ const cart = [
 ## Related Code
 
 ```bash
-D3_A2_ShoppingCartAssignment.js
+ShoppingCartAssignment.js
 ```
 
 ---
@@ -217,7 +217,7 @@ The project is designed for practicing:
 # Project Structure
 
 ```bash
-D3_A3_TaskManagment/
+TaskManagment/
 │
 ├── app.js
 ├── task.js
@@ -299,7 +299,7 @@ const courses = ["javascript", "react", "node", "mongodb", "express"];
 ## Related Code
 
 ```bash
-D3_A4_OnlineCourseNameProcessor.js
+OnlineCourseNameProcessor.js
 ```
 
 ---
@@ -333,7 +333,7 @@ const marks = [78, 92, 35, 88, 40, 67];
 ## Related Code
 
 ```bash
-D3_A5_StudentMarksList.js
+StudentMarksList.js
 ```
 
 ---
@@ -377,7 +377,7 @@ const students = [
 ## Related Code
 
 ```bash
-D3_A6_StudentPerformanceDashboard.js
+StudentPerformanceDashboard.js
 ```
 
 ---
@@ -419,7 +419,7 @@ const employees = [
 ## Related Code
 
 ```bash
-D3_A7_EmployeePayrollProcessor.js
+EmployeePayrollProcessor.js
 ```
 
 ---
@@ -461,7 +461,7 @@ const movies = [
 ## Related Code
 
 ```bash
-D3_A8_MovieStreamingPlatform.js
+MovieStreamingPlatform.js
 ```
 
 ---
@@ -500,7 +500,7 @@ const transactions = [
 ## Related Code
 
 ```bash
-D3_A9_BankTransactionAnalyzer.js
+BankTransactionAnalyzer.js
 ```
 
 ---
@@ -539,7 +539,7 @@ The project is designed for practicing:
 # Project Structure
 
 ```bash
-D3_A10_ECommerceShoppingCart/
+ECommerceShoppingCart/
 │
 ├── app.js
 ├── cart.js
@@ -660,7 +660,7 @@ Create a `Book` class and use it to manage a collection of books in a library.
 ## Related Code
 
 ```bash
-D4_A1_LibraryBookManagementSystem.js
+LibraryBookManagementSystem.js
 ```
 
 ---
@@ -684,7 +684,7 @@ Learn shallow copy using spread operator.
 ## Related Code
 
 ```bash
-D4_A2_ShallowCopyOfArray.js
+ShallowCopyOfArray.js
 ```
 
 ---
@@ -708,7 +708,7 @@ Learn object cloning and extension.
 ## Related Code
 
 ```bash
-D4_A3_ShallowCopyOfObject.js
+ShallowCopyOfObject.js
 ```
 
 ---
@@ -724,7 +724,7 @@ Write a function that receives any number of arguments and returns their sum.
 ## Related Code
 
 ```bash
-D4_A4_RestParameterArraySum.js
+RestParameterArraySum.js
 ```
 
 ---
@@ -748,7 +748,7 @@ Understand mutation behavior in shallow copy.
 ## Related Code
 
 ```bash
-D4_A5_ShallowCopyDifference.js
+ShallowCopyDifference.js
 ```
 
 ---
@@ -772,7 +772,7 @@ Understand deep copy isolation.
 ## Related Code
 
 ```bash
-D4_A6_DeepCopyDifference.js
+DeepCopyDifference.js
 ```
 
 ---
@@ -801,7 +801,7 @@ D4_A6_DeepCopyDifference.js
 ## Related Code
 
 ```bash
-D4_A7_ExamPortalSimulator.js
+ExamPortalSimulator.js
 ```
 
 ---
@@ -819,7 +819,7 @@ D4_A7_ExamPortalSimulator.js
 ## Related Code
 
 ```bash
-D4_A8_OTPCountdownSimulator.js
+OTPCountdownSimulator.js
 ```
 
 ---
@@ -835,7 +835,7 @@ Understand JavaScript Promises and asynchronous handling.
 ## Related Code
 
 ```bash
-D4_A9_MoneyTransferPromise.js
+MoneyTransferPromise.js
 ```
 
 ---
@@ -872,7 +872,7 @@ This project demonstrates:
 # Project Structure
 
 ```bash
-AssignmentBackEnd-1/
+UserAndProductBackEnd/
 │
 ├── APIs/
 │   ├── userApi.js

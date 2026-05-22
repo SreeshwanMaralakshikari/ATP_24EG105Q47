@@ -21,23 +21,23 @@ This repository is designed to strengthen JavaScript fundamentals through practi
 ```bash
 Week 1/
 │
-├── D1_A1_BigOfTwoNumbers.js
-├── D1_A2_BigOfThreeNumbers.js
-├── D1_A3_FindSumOfArray.js
-├── D1_A4_SmallestElementInArray.js
-├── D1_A5_BigOfThreeNumbersFunction.js
-├── D1_A6_ArraySumFunction.js
-├── D1_A7_ArrayElementSearch.js
-├── D1_A8_BillCalculator.js
-├── D1_A9_SmartLoginStatusEngine.js
-├── D1_A10_CoursePriceTagLabeler.js
-├── D1_A11_EnrollmentEligibilityChecker.js
+├── BigOfTwoNumbers.js
+├── BigOfThreeNumbers.js
+├── FindSumOfArray.js
+├── SmallestElementInArray.js
+├── BigOfThreeNumbersFunction.js
+├── ArraySumFunction.js
+├── ArrayElementSearch.js
+├── BillCalculator.js
+├── SmartLoginStatusEngine.js
+├── CoursePriceTagLabeler.js
+├── EnrollmentEligibilityChecker.js
 │
-├── D2_A1_EmployeeArrayObjectOperations.js
-├── D2_A2_UserArrayObject.js
-├── D2_A3_CartArrayObject.js
-├── D2_A4_StudentArrayObject.js
-├── D2_A5_RoleObjectObjects.js
+├── EmployeeArrayObjectOperations.js
+├── UserArrayObject.js
+├── CartArrayObject.js
+├── StudentArrayObject.js
+├── RoleObjectObjects.js
 │
 └── README.md
 ```
@@ -48,22 +48,22 @@ Week 1/
 
 | File Name | Purpose |
 |---|---|
-| `D1_A1_BigOfTwoNumbers.js` | Finds the bigger number between two given numbers. |
-| `D1_A2_BigOfThreeNumbers.js` | Finds the biggest number among three given numbers. |
-| `D1_A3_FindSumOfArray.js` | Calculates the sum of all elements in an array. |
-| `D1_A4_SmallestElementInArray.js` | Finds the smallest element in an array. |
-| `D1_A5_BigOfThreeNumbersFunction.js` | Uses a function to determine the largest of three numbers. |
-| `D1_A6_ArraySumFunction.js` | Uses a function to calculate the sum of array elements. |
-| `D1_A7_ArrayElementSearch.js` | Searches for an element in an array and returns its index or `"not found"`. |
-| `D1_A8_BillCalculator.js` | Simulates a bill calculation system with additions, discount, GST, and final amount generation. |
-| `D1_A9_SmartLoginStatusEngine.js` | Determines user login status and profile completion message using conditional logic. |
-| `D1_A10_CoursePriceTagLabeler.js` | Categorizes courses into Budget, Standard, or Premium based on price. |
-| `D1_A11_EnrollmentEligibilityChecker.js` | Checks whether a user is eligible for enrollment using conditions and ternary operators. |
-| `D2_A1_EmployeeArrayObjectOperations.js` | Performs employee array operations such as insertion, deletion, and updating marks. |
-| `D2_A2_UserArrayObject.js` | Handles user array operations including filtering active users, checking roles, and immutable updates. |
-| `D2_A3_CartArrayObject.js` | Performs shopping cart operations like total calculation, quantity update, item removal, and mapping data. |
-| `D2_A4_StudentArrayObject.js` | Calculates student averages, filters passed students, and performs analysis on student marks. |
-| `D2_A5_RoleObjectObjects.js` | Manages role-permission objects, checks permissions, creates unique permission arrays, and transforms object data. |
+| `BigOfTwoNumbers.js` | Finds the bigger number between two given numbers. |
+| `BigOfThreeNumbers.js` | Finds the biggest number among three given numbers. |
+| `FindSumOfArray.js` | Calculates the sum of all elements in an array. |
+| `SmallestElementInArray.js` | Finds the smallest element in an array. |
+| `BigOfThreeNumbersFunction.js` | Uses a function to determine the largest of three numbers. |
+| `ArraySumFunction.js` | Uses a function to calculate the sum of array elements. |
+| `ArrayElementSearch.js` | Searches for an element in an array and returns its index or `"not found"`. |
+| `BillCalculator.js` | Simulates a bill calculation system with additions, discount, GST, and final amount generation. |
+| `SmartLoginStatusEngine.js` | Determines user login status and profile completion message using conditional logic. |
+| `CoursePriceTagLabeler.js` | Categorizes courses into Budget, Standard, or Premium based on price. |
+| `EnrollmentEligibilityChecker.js` | Checks whether a user is eligible for enrollment using conditions and ternary operators. |
+| `EmployeeArrayObjectOperations.js` | Performs employee array operations such as insertion, deletion, and updating marks. |
+| `UserArrayObject.js` | Handles user array operations including filtering active users, checking roles, and immutable updates. |
+| `CartArrayObject.js` | Performs shopping cart operations like total calculation, quantity update, item removal, and mapping data. |
+| `StudentArrayObject.js` | Calculates student averages, filters passed students, and performs analysis on student marks. |
+| `RoleObjectObjects.js` | Manages role-permission objects, checks permissions, creates unique permission arrays, and transforms object data. |
 
 ---
 
@@ -77,7 +77,7 @@ Find the big number in given two numbers
 ### Related Code
 
 ```bash
-D1_A1_BigOfTwoNumbers.js
+BigOfTwoNumbers.js
 ```
 
 ---
@@ -90,7 +90,7 @@ Find the big number in given three numbers
 ### Related Code
 
 ```bash
-D1_A2_BigOfThreeNumbers.js
+BigOfThreeNumbers.js
 ```
 
 ---
@@ -107,7 +107,7 @@ Find the sum of marks in:
 ### Related Code
 
 ```bash
-D1_A3_FindSumOfArray.js
+FindSumOfArray.js
 ```
 
 ---
@@ -124,7 +124,7 @@ Find the smallest element in marks array:
 ### Related Code
 
 ```bash
-D1_A4_SmallestElementInArray.js
+SmallestElementInArray.js
 ```
 
 ---
@@ -137,7 +137,7 @@ Write a function that recieves 3 numbers args and return the big number
 ### Related Code
 
 ```bash
-D1_A5_BigOfThreeNumbersFunction.js
+BigOfThreeNumbersFunction.js
 ```
 
 ---
@@ -150,7 +150,7 @@ Write a function that recieves an array as arg and return their sum
 ### Related Code
 
 ```bash
-D1_A6_ArraySumFunction.js
+ArraySumFunction.js
 ```
 
 ---
@@ -166,7 +166,7 @@ It should return `"not found"` when search element not found.
 ### Related Code
 
 ```bash
-D1_A7_ArrayElementSearch.js
+ArrayElementSearch.js
 ```
 
 ---
@@ -192,7 +192,7 @@ let totalAmount = 0;
 ### Related Code
 
 ```bash
-D1_A8_BillCalculator.js
+BillCalculator.js
 ```
 
 ---
@@ -219,7 +219,7 @@ let isProfileComplete = false;
 ### Related Code
 
 ```bash
-D1_A9_SmartLoginStatusEngine.js
+SmartLoginStatusEngine.js
 ```
 
 ---
@@ -245,7 +245,7 @@ let price = 1299;
 ### Related Code
 
 ```bash
-D1_A10_CoursePriceTagLabeler.js
+CoursePriceTagLabeler.js
 ```
 
 ---
@@ -272,7 +272,7 @@ let hasCompletedBasics = false;
 ### Related Code
 
 ```bash
-D1_A11_EnrollmentEligibilityChecker.js
+EnrollmentEligibilityChecker.js
 ```
 
 ---
@@ -302,7 +302,7 @@ const employees = [
 ### Related Code
 
 ```bash
-D2_A1_EmployeeArrayObjectOperations.js
+EmployeeArrayObjectOperations.js
 ```
 
 ---
@@ -330,7 +330,7 @@ const users = [
 ### Related Code
 
 ```bash
-D2_A2_UserArrayObject.js
+UserArrayObject.js
 ```
 
 ---
@@ -357,7 +357,7 @@ const cart = [
 ### Related Code
 
 ```bash
-D2_A3_CartArrayObject.js
+CartArrayObject.js
 ```
 
 ---
@@ -385,7 +385,7 @@ const students = [
 ### Related Code
 
 ```bash
-D2_A4_StudentArrayObject.js
+StudentArrayObject.js
 ```
 
 ---
@@ -413,7 +413,7 @@ const roles = {
 ### Related Code
 
 ```bash
-D2_A5_RoleObjectObjects.js
+RoleObjectObjects.js
 ```
 
 ---
