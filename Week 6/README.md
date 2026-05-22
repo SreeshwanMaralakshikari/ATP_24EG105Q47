@@ -49,11 +49,11 @@ The work focuses on:
 ```bash
 Week 6/
 │
-│── D15_A1_react-app-1/
-│── D15_A2_react-app-2/
-│── D16_A1_mern-mini-app/
+│── D15_A1_product-form-demo/
+│── D15_A2_basic-react-app/
+│── D16_A1_mern-mini-employee-app/
 │── D16_A2_react-routing-demo/
-└── D17_A1_react-app-1/
+└── D17_A1_context-counter-demo/
 ```
 
 ---
@@ -80,7 +80,7 @@ The projects cover:
 
 ---
 
-# Day 15 — React Assignment 1
+# Day 15 — Product Form Demo
 
 ## Main Idea
 This project is based on displaying product data using React components.
@@ -110,7 +110,7 @@ This folder also contains form demo components that use React Hook Form for user
 
 ---
 
-# Day 15 — React Assignment 2
+# Day 15 — Basic React App
 
 ## Main Idea
 This project combines multiple React concepts in one app.
@@ -230,7 +230,7 @@ A routing practice project that demonstrates client-side navigation in React.
 
 ---
 
-# Day 17 — React Assignment 3
+# Day 17 — Context Counter Demo
 
 ## Main Idea
 This project demonstrates Context API and shared counter state across multiple components.
