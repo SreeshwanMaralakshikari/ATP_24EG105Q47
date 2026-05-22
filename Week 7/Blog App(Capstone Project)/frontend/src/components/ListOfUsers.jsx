@@ -26,7 +26,6 @@ function ListOfUsers() {
 
   const toggleUser = async (user) => {
     const endpoint = user.isUserActive ? "deactivate" : "activate";
-    // ✅ Removed unnecessary withCredentials
     await axiosInstance.patch(`/admin-api/users/${endpoint}`, {
       userId: user._id,
       isUserActive: !user.isUserActive,

@@ -29,7 +29,6 @@ function ArticleByID() {
     const getArticle = async () => {
       setLoading(true);
       try {
-        // ✅ Fixed: correct route that exists in backend
         const res = await axiosInstance.get(`/user-api/articles`);
         const found = res.data.payload.find((a) => a._id === id);
         if (found) {

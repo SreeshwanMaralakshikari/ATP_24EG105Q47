@@ -85,13 +85,11 @@ commonApp.post("/login", async (req, res) => {
   const userObj = user.toObject();
   delete userObj.password;
 
-  // ✅ Send token in response body instead of cookie
   res.status(200).json({ message: "Login Success", payload: userObj, token: signedToken });
 });
 
 //Route for Logout
 commonApp.get("/logout", (req, res) => {
-  // ✅ No cookie to clear — frontend handles localStorage
   res.status(200).json({ message: "Logout Success" });
 });
 

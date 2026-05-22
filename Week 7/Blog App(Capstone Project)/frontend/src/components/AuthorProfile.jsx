@@ -2,7 +2,6 @@ import { NavLink, Outlet, useNavigate } from "react-router";
 import { useAuth } from "../store/authStore";
 import { pageWrapper, navLinkClass, divider } from "../styles/common";
 
-// ✅ Fixed: renamed function from UserProfile to AuthorProfile
 function AuthorProfile() {
   const currentUser = useAuth((state) => state.currentUser);
   const logout = useAuth((state) => state.logout);

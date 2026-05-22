@@ -4,7 +4,6 @@ import { ArticleModel } from '../models/ArticleModel.js';
 
 export const userApp = exp.Router();
 
-// ✅ Populate author so firstName and lastName show correctly
 userApp.get("/articles", verifyToken("USER"), async (req, res) => {
   const articlesList = await ArticleModel.find({ isArticleActive: true })
     .populate("author", "firstName lastName")

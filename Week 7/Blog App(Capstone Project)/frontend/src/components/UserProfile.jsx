@@ -1,6 +1,6 @@
 import { useAuth } from "../store/authStore";
 import { useNavigate } from "react-router";
-import axiosInstance from "../axiosInstance"; // ✅ Removed unused axios import
+import axiosInstance from "../axiosInstance";
 import { useEffect, useState } from "react";
 import {
   articleGrid, articleCardClass, articleTitle,

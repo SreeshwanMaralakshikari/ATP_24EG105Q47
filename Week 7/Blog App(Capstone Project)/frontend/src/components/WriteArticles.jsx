@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router";
-import axiosInstance from "../axiosInstance"; // ✅ Removed unused axios import
+import axiosInstance from "../axiosInstance";
 import {
   formCard, formTitle, formGroup, labelClass,
   inputClass, submitBtn, errorClass, loadingClass,

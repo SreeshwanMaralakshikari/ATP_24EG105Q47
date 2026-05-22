@@ -6,8 +6,6 @@ config();
 
 export const verifyToken = (...allowedRoles) => {
     return (req, res, next) => {
-
-        // ✅ Read token from Authorization header instead of cookie
         const authHeader = req.headers.authorization;
         const token = authHeader && authHeader.split(" ")[1]; // "Bearer <token>"
 

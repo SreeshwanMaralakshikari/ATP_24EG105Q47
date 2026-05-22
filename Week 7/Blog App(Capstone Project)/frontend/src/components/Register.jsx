@@ -5,7 +5,7 @@ import {
 import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router";
 import { useState } from "react";
-import axiosInstance from "../axiosInstance"; // ✅ Removed unused axios import
+import axiosInstance from "../axiosInstance";
 
 function Register() {
   const { register, handleSubmit, formState: { errors } } = useForm();

@@ -67,14 +67,13 @@ function Articles() {
         ) : (
           <div className={articleGrid}>
             {articles.map((article) => (
-              // ✅ Fixed: _id instead of id
               <div key={article._id} className={articleCardClass}>
                 <h2 className={articleTitle}>{article.title}</h2>
                 <p className={articleExcerpt}>
                   {article.excerpt || article.content?.substring(0, 150) + "..."}
                 </p>
                 <div className={articleMeta}>
-                  {/* ✅ author is now populated from backend */}
+                  {/* author is now populated from backend */}
                   <span>By {article.author?.firstName} {article.author?.lastName}</span>
                   <span>•</span>
                   <span>{new Date(article.createdAt).toLocaleDateString()}</span>
